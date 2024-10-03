@@ -44,7 +44,7 @@ const Search = () => {
                 />
                 <input
                     type="text"
-                    placeholder="Fields (comma-separated)"
+                    placeholder="Fields"
                     value={fields}
                     onChange={(e) => setFields(e.target.value)}
                 />
