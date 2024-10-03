@@ -127,3 +127,13 @@ li p {
     border-radius: 4px; 
     width: 80%; 
 }
+
+.container {
+    text-align: center; 
+}
+
+.logo {
+    max-width: 200px; 
+    margin: 20px auto; 
+    display: block; 
+}

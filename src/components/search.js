@@ -23,6 +23,11 @@ const Search = () => {
 
     return (
         <div className="container">
+            <img 
+                src="https://cdn.prod.website-files.com/62ec02f98fa58f01d806f9c5/66a64a3867202356e599f4b2_logo%202.png" 
+                alt="Logo" 
+                className="logo" 
+            />
             <h1 className="heading">EpiRecipes Search Platform</h1>
             <form onSubmit={handleSearch}>
                 <input
